@@ -1,4 +1,4 @@
-EDSPERT ECOMMERCE PROJECT
+EDSPERT ECOMMERCE PROJECT  
 This project was initially created for learning purpose after finished my course at Edspert Indonesia.
 The initial project was only for the `catalogue` and `course-details` pages only.
 But after the deadline, I willingly dedicated my times to develop more pages on this project.
