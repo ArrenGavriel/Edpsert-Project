@@ -1,0 +1,85 @@
+.background-image {
+    background-image: url(./Assets/blurred-fotis-fotopoulos-DuHKoV44prg-unsplash.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+/* navigation bar */
+.navigation-bar {
+    background-color: white;
+}
+
+.navbar-expand-lg {
+    margin: 0px 100px;
+    /* background-color: blue; */
+}
+
+#sign-up-btn {
+    background-color: hsl(259, 63%, 59%);
+    color: white;
+}
+
+#sign-up-btn:hover {
+    background-color: #42307D;
+    color: white;
+}
+
+#sign-up-btn:active {
+    background-color: #1e0753;
+    color: white;
+}
+
+.non-sign-up {
+    color: #667085;
+}
+
+[aria-current="page"] {
+    background-color: hsla(259, 63%, 59%, 0.562) !important;
+    color: white !important;
+    pointer-events: none !important;
+    cursor: default !important;
+    text-decoration: none !important;
+}
+
+
+/* registration card */
+.card {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.register-card-content-separator-container {
+    overflow:hidden;
+}
+
+#submit-registration {
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+}
+
+#submit-registration:hover {
+    background-color: #42307D;
+    color: white;
+}
+
+#submit-registration:active {
+    background-color: #1e0753;
+    color: white;
+}
+
+h3.white-text {
+    color: white;
+}
+
+label.white-text {
+    color: white;
+}
+
+p.white-text {
+    color: white;
+}
+
+a.anchor-text {
+    color: #89aadf;
+}
