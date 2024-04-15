@@ -22,6 +22,9 @@
     color: #667085;
 }
 
+
+
+/* slogan */
 .slogan-title-div {
     height: 50%;
     margin: 0%;
@@ -43,6 +46,9 @@
     color: #6941C6;
 }
 
+
+
+/* bootcamp catalogue menu */
 .catalogue-option-div {
     /* height: 1149px; */
     height: auto;
@@ -112,6 +118,9 @@
     margin-top:10%; 
 }
 
+
+
+/* footer */
 .footer-div {
     /* background-color: yellow;    /* div color test */
 }
@@ -132,6 +141,9 @@
 .show-only-in-mobile-display {
     display: none;
 }
+
+
+
 
 
 

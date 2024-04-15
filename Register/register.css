@@ -5,9 +5,12 @@
     position: relative;
 }
 
+
+
 /* navigation bar */
 .navigation-bar {
     background-color: white;
+    z-index: 1;
 }
 
 .navbar-expand-lg {
@@ -43,10 +46,12 @@
 }
 
 
+
 /* registration card */
 .card {
     border-radius: 20px;
     overflow: hidden;
+    border: none;
 }
 
 .register-card-content-separator-container {
