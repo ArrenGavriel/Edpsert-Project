@@ -1,0 +1,124 @@
+h1 {
+    color: #42307D;
+}
+
+
+
+/* navigation bar */
+.navigation-bar {
+    background-color: white;
+    z-index: 1;
+}
+
+.navbar-expand-lg {
+    margin: 0px 100px;
+    /* background-color: blue; */
+}
+
+#sign-up-btn {
+    background-color: hsl(259, 63%, 59%);
+    color: white;
+}
+
+#sign-up-btn:hover {
+    background-color: #42307D;
+    color: white;
+}
+
+#sign-up-btn:active {
+    background-color: #1e0753;
+    color: white;
+}
+
+.non-sign-up {
+    color: #667085;
+}
+
+
+
+/* slogan */
+.slogan-title-div {
+    height: 50%;
+    margin: 0%;
+    padding: 0%;
+    display: block;
+    /*background-color: gray;      /* color test */
+}
+
+.slogan-title-text-alignment {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* .slogan-title {
+    color: #42307D;
+} */
+
+.slogan-sub-title {
+    color: #6941C6;
+}
+
+#jelajahi-bootcamp-btn {
+    background-color: hsl(259, 63%, 59%);
+    color: white;
+    border-radius: 30px;
+}
+
+#jelajahi-bootcamp-btn:hover {
+    background-color: #42307D;
+    color: white;
+}
+
+#jelajahi-bootcamp-btn:active {
+    background-color: #1e0753;
+    color: white;
+}
+
+
+
+/* sponsor */
+.sponsor-title-div {
+    height: 50%;
+    margin: 0%;
+    padding: 0%;
+    display: block;
+    /*background-color: gray;      /* color test */
+}
+
+.sponsor-title-text-alignment {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* .sponsor-title {
+    color: #42307D;
+} */
+
+.sponsor-img-size {
+    scale: 75%;
+    display: inline-block;
+}
+
+
+
+/* footer */
+.footer-div {
+    /* background-color: yellow;    /* div color test */
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-menu {
+    text-decoration: none;
+    line-height: 2;
+}
+
+.footer-sub-div-for-small-display {
+    display: none;
+}
+
+.show-only-in-mobile-display {
+    display: none;
+}

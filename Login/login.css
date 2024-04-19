@@ -1,0 +1,110 @@
+body {
+    position: relative;
+}
+
+.background-image {
+    background-image: url('./Assets/blurred-fotis-fotopoulos-DuHKoV44prg-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    /* backdrop-filter: blur(5px); */
+    background-position: center;
+    /* filter: blur(10px); */ /* unable to blur the background only without affecting the child tags */
+}
+
+.viewport-container {
+    height: 650px;
+}
+
+
+
+/* navigation bar */
+.navigation-bar {
+    background-color: white;
+}
+
+.navbar-expand-lg {
+    margin: 0px 100px;
+    /* background-color: blue; */
+}
+
+#sign-up-btn {
+    background-color: hsl(259, 63%, 59%);
+    color: white;
+}
+
+#sign-up-btn:hover {
+    background-color: #42307D;
+    color: white;
+}
+
+#sign-up-btn:active {
+    background-color: #1e0753;
+    color: white;
+}
+
+.non-sign-up {
+    color: #667085;
+}
+
+[aria-current="page"] {
+    color: #d1d1d1;
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+}
+
+
+
+/* login card section */
+.login-card {
+    border-radius: 20px;
+    width: 20rem;
+    overflow: hidden;
+    filter: none;
+    background-color: hsl(259, 63%, 59%);
+}
+
+div h3 {
+    color: white;
+}
+
+div label {
+    color: white;
+}
+
+div p {
+    color: white;
+}
+
+p a {
+    color: #89aadf;
+}
+
+div a {
+    color: #89aadf;
+}
+
+#login-button {
+    background-color: white;
+    color: black;
+}
+
+#login-button:hover {
+    background-color: #42307D;
+    color: white;
+}
+
+#login-button:active {
+    background-color: #1e0753 ;
+    color: white;
+}
+
+.align-items-center {
+    display: flex; 
+    align-items: center;  /*Aligns vertically center */
+    justify-content: center; /*Aligns horizontally center */
+}
+
+.form-check-input {
+    accent-color: hsl(259, 63%, 59%);
+}

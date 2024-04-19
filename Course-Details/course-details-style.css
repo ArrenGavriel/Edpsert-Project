@@ -1,0 +1,67 @@
+/* navigation bar */
+.navbar-expand-lg {
+    margin: 0px 100px;
+}
+
+#sign-up-btn {
+    background-color: hsl(259, 63%, 59%);
+    color: white;
+}
+
+#sign-up-btn:hover {
+    background-color: #42307D;
+    color: white;
+}
+
+#sign-up-btn:active {
+    background-color: #1e0753;
+    color: white;
+}
+
+.non-sign-up {
+    color: #667085;
+}
+
+/* metrics section */
+.card {
+    background-color: #F9FAFB;
+}
+
+.mentor-title {
+    color: #6941C6;
+}
+
+/* fasilitas section */
+.fasilitas-card-element {
+    text-align: center;
+}
+
+/* daftar kelas sekarang */
+.btn-purple {
+    background-color: hsl(259, 63%, 59%);
+    color: white;
+}
+
+.btn-purple:hover {
+    background-color: #442983;
+    color: white;
+}
+
+.btn-purple:active {
+    background-color: #1e0753;
+    color: white;
+}
+
+/* footer */
+.footer-div {
+    /* background-color: yellow;    /* div color test */
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-menu {
+    text-decoration: none;
+    line-height: 2;
+}

@@ -1,0 +1,201 @@
+.navbar-expand-lg {
+    margin: 0px 100px;
+    /* background-color: blue; */
+}
+
+#sign-up-btn {
+    background-color: hsl(259, 63%, 59%);
+    color: white;
+}
+
+#sign-up-btn:hover {
+    background-color: #42307D;
+    color: white;
+}
+
+#sign-up-btn:active {
+    background-color: #1e0753;
+    color: white;
+}
+
+.non-sign-up {
+    color: #667085;
+}
+
+
+
+/* slogan */
+.slogan-title-div {
+    height: 50%;
+    margin: 0%;
+    padding: 0%;
+    display: block;
+    /*background-color: gray;      /* color test */
+}
+
+.slogan-title-text-alignment {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.slogan-title {
+    color: #42307D;
+}
+
+.slogan-sub-title {
+    color: #6941C6;
+}
+
+
+
+/* bootcamp catalogue menu */
+.catalogue-option-div {
+    /* height: 1149px; */
+    height: auto;
+    margin-top: 40%;
+    padding: 0%;
+    background-image: url(./Assets/background-pattern.png); 
+    background-repeat: no-repeat; 
+    background-size: 100% 50%;
+    /*background-color: salmon;   /* div color test */
+}
+
+.catalogue-option-sub-div {
+    padding: 0 5%;
+    justify-content: center;
+    margin-top: 10%;
+    /* background-color: purple;    /* div color test */
+}
+
+.catalogue-option {
+    height: 570px;
+    width: 384px;
+    transform: scale(0.9);
+    margin: 0%; 
+    padding: 0%; 
+    overflow: hidden;
+}
+
+.bullet-style-in-block-menu {
+    list-style-image: url(./Assets/checklist-icon.png);
+}
+
+.card {
+    padding: 0%;
+    margin: 0%;
+    border-radius: 20px;
+}
+
+.container img {
+    /* object-fit: contain; */
+    /* or
+    object-fit: cover; */
+} 
+
+.daftar-sekarang-btn {
+    background-color: #6941C6;
+    margin-bottom: 5%;
+}
+
+.daftar-sekarang-btn:hover {
+    background-color: #442983;
+    color: white;
+    margin-bottom: 5%;
+}
+
+.daftar-sekarang-btn:active {
+    background-color: #1e0753;
+    color: white;
+    margin-bottom: 5%;
+}
+
+.pagination-div {
+    /* background-color: green;     /* div color test */
+}
+
+.pagination-ul {
+    justify-content: center;
+    margin-top:10%; 
+}
+
+
+
+/* footer */
+.footer-div {
+    /* background-color: yellow;    /* div color test */
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-menu {
+    text-decoration: none;
+    line-height: 2;
+}
+
+.footer-sub-div-for-small-display {
+    display: none;
+}
+
+.show-only-in-mobile-display {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1067px) {
+    .catalogue-option-div {
+        /* height: 1149px; */
+        height: auto;
+        margin-top: 40%;
+        padding: 0%;
+        background-image: none; 
+        /*background-color: salmon;   /* div color test */
+    }
+    
+    .pagination-div {
+        /* background-color: green;     /* div color test */
+    }
+    
+    .pagination-ul {
+        justify-content: center;
+        margin-top:10%; 
+    }
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {  
+    .footer-div {
+        display: none;
+    }
+
+    .show-only-in-desktop-display {
+        display: none;
+    }
+
+    .footer-sub-div-for-small-display {
+        display: block;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+
+    .show-only-in-mobile-display {
+        display: block;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+}

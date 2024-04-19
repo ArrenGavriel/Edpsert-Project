@@ -1,0 +1,168 @@
+/* navigation bar */
+.navbar-expand-lg {
+    margin: 0px 100px;
+    background-color: white;
+}
+
+#sign-up-btn {
+    background-color: hsl(259, 63%, 59%);
+    color: white;
+}
+
+#sign-up-btn:hover {
+    background-color: #42307D;
+    color: white;
+}
+
+#sign-up-btn:active {
+    background-color: #1e0753;
+    color: white;
+}
+
+.non-sign-up {
+    color: #667085;
+}
+
+
+
+/* slogan section */
+.slogan-title-div {
+    height: 50%;
+    margin: 0%;
+    padding: 0%;
+    display: block;
+    /*background-color: gray;      /* color test */
+}
+
+.slogan-title-text-alignment {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.slogan-title {
+    color: #42307D;
+}
+
+.slogan-sub-title {
+    color: #6941C6;
+}
+
+
+
+/* courses section */
+.class-card-right-col-background {
+    /* background-color: hsl(259, 63%, 59%); */
+    background-image: url(./Assets/teaching.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.card {
+    border-radius: 20px;
+    overflow: hidden;
+    border: none;
+    transition: 1s;
+}
+
+.daftar-sekarang {
+    display: none;
+}
+
+.card:hover {
+    border-radius: 20px;
+    overflow: hidden;
+    border: none;
+
+    background-color: #42307D;
+
+    div > h3 {
+        visibility: hidden;
+    }
+
+    li {
+        visibility: hidden;
+    }
+
+    .class-card-right-col-background {
+        background-image: none;
+    }
+
+    .card-text {
+        color: #42307D;
+    }
+
+    [class=bullet-style-in-block-menu] {
+        list-style-image: none;
+    }
+    
+    .daftar-sekarang {
+        position:absolute;
+        display: inline;
+        text-align: center;
+        color: white;
+        margin: 0% 40%;
+        /* transition: 0.1s; */
+        /* transition-timing-function: ease-out; */
+    }
+}
+
+.card:active {
+    border-radius: 20px;
+    overflow: hidden;
+    border: none;
+
+    background-color: #1e0753;
+
+    li {
+        visibility: hidden;
+    }
+
+    .class-card-right-col-background {
+        background-image: none;
+    }
+
+    .card-text {
+        visibility: hidden;
+    }
+
+    [class=bullet-style-in-block-menu] {
+        list-style-image: none;
+    }
+
+    .daftar-sekarang {
+        position:absolute;
+        display: inline;
+        text-align: center;
+        color: white;
+        margin: 0% 40%;
+    }    
+}
+
+.bullet-style-in-block-menu {
+    list-style-image: url(./Assets/checklist-icon.png);
+}
+
+
+
+/* footer */
+.footer-div {
+    /* background-color: yellow;    /* div color test */
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-menu {
+    text-decoration: none;
+    line-height: 2;
+}
+
+.footer-sub-div-for-small-display {
+    display: none;
+}
+
+.show-only-in-mobile-display {
+    display: none;
+}
